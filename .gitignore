@@ -1,0 +1,52 @@
+# Funka - Game Store Project
+# Global .gitignore for both backend and frontend
+
+# ==================== BACKEND ====================
+# Maven
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+!backend/**/src/main/**/target/
+!backend/**/src/test/**/target/
+
+# IDE
+backend/.idea/
+backend/*.iws
+backend/*.iml
+backend/*.ipr
+backend/.vscode/
+
+# Environment Variables
+backend/.env.dev
+backend/.env.prod
+backend/.env
+
+# ==================== FRONTEND ====================
+# Dependencies
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+
+# IDE
+frontend/.vscode/
+frontend/.idea/
+
+# Environment Variables
+frontend/.env
+frontend/.env.local
+frontend/.env.development
+frontend/.env.production
+
+# ==================== GLOBAL ====================
+# IDE Global
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
