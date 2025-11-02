@@ -1,0 +1,46 @@
+<nav class="gaming-navbar">
+  <!-- Logo (izquierda) -->
+  <div class="navbar-start">
+    <i class="pi pi-bolt text-3xl text-[#fbbf24] mb-1"></i>
+    <span class="text-3xl font-bold text-white font-family-orbitron">fanda</span>
+  </div>
+
+  <!-- Search (centro) -->
+  <div class="navbar-center">
+    <p-iconfield iconPosition="right" class="search-field w-full">
+      <p-inputicon class="pi pi-search" />
+      <input
+        type="text"
+        pInputText
+        placeholder="Search games..."
+        (input)="onSearch($event)"
+      />
+    </p-iconfield>
+  </div>
+
+  <!-- Usuario + Icons (derecha) -->
+  <div class="navbar-end">
+    <!-- Usuario -->
+    <div class="user-profile">
+      <span class="user-name">Berlin</span>
+      <div class="user-avatar">
+        <img src="https://i.pravatar.cc/150?img=33" alt="Berlin" />
+      </div>
+    </div>
+
+    <!-- Notificaciones -->
+    <button class="icon-btn notification-btn">
+      <i class="pi pi-bell"></i>
+    </button>
+
+    <!-- Favoritos -->
+    <button class="icon-btn favorite-btn">
+      <i class="pi pi-heart-fill"></i>
+    </button>
+
+    <!-- Carrito -->
+    <button class="icon-btn cart-btn">
+      <i class="pi pi-shopping-cart"></i>
+    </button>
+  </div>
+</nav>

@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+@import 'primeicons/primeicons.css';
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800&display=swap');
+
+@layer theme {
+  @theme {
+    /* Custom gaming colors */
+    --color-gaming-primary: #6366f1;
+    --color-gaming-secondary: #8b5cf6;
+    --color-gaming-accent: #06b6d4;
+    --color-gaming-dark: #0f172a;
+    --color-gaming-card: #1e293b;
+    --color-gaming-border: #334155;
+    /* Custom font family */
+    --font-family-gaming: 'Poppins', sans-serif;
+    --font-family-orbitron: 'Orbitron', sans-serif;
+  }
+}

@@ -19,6 +19,8 @@ backend/.vscode/
 backend/.env.dev
 backend/.env.prod
 backend/.env
+backend/application-dev.properties
+backend/src/main/resources/application-dev.properties
 
 # ==================== FRONTEND ====================
 # Dependencies
@@ -54,3 +56,4 @@ yarn-error.log*
 # Documentation files (local only)
 API_ENDPOINTS.md
 ENDPOINTS_LIST.txt
+node_modules
